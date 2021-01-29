@@ -59,10 +59,10 @@ For this first goal, you can either make calls on your cleaned dataset and add n
 E.g.: you tested your cleaning functions on your jupyter notebook. Now that they work, you take them to your `cleaning.py` file. Remember that you'll have to call those functions as well for them to be executed:
 
 ```python
-def sum(a, b)
+def sum(a, b) #defining
   return a+b
 
-sum(3, 4)
+sum(3, 4) #calling
 ```
 
 You should be able to run:
