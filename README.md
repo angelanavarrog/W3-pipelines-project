@@ -81,12 +81,19 @@ So, basically, your repo structure should look something like:
 2-enriching-and-cleaning.ipynb
 3-visualizing.ipynb
 ```
+However, even though the executable file will only be the `cleaning.py`, that doesn't mean that there are no more `files.py`. All of the functions that you use for enriching the datset (api calls, web-scrapping, cleaning the second dataset, etc) should also be stored in another `file.py`. Eg.:
+
+```bash
+4-api.py #not necessarily executable but can be
+5-scrapping.py
+6-other-functions-you-can-think-of.py
+```
 
 ## Super Ultra Mega Blaster Tips
 
 * **Examine the data**.
 
-* **Break the project down into different steps** - A hundred simple tasks are better than a single complicated one
+* **Break the project down into different steps** - A hundred simple tasks are` better than a single complicated one
 
 * **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in the bootcamp. This is a great way to start tying everything you've learned together!
 
