@@ -46,7 +46,41 @@ The technical requirements for this project are as follows:
 - F) The finished report must be a **very pretty** jupyter notebook, with text, clean code, meaningful outputs, plots and charts. Try telling a story with your data, that is, conduct us (the readers) through your findings and lead us into your conclusions.
   - _Note:_ The report jupyter **must** be separate from the code for cleaning, acquiring, processing data, etc. These may be in other jupyters or in `.py` modules. _Be not afraid to modulate 🎶_
 
+## Summing up
 
+You will be working with both jupyter notebooks and python scripts. The goals of this project are:
+
+1. To **enrich** a given dataset, either using API's or web-scrapping
+
+For this first goal, you can either make calls on your cleaned dataset and add new columns to it, or you can do web-scrapping to generate a new dataset. Then, you'll have to plot graphs that show the relation between the data within the dataset (downloaded and enriched with API calls) or between the two datasets (the downloaded and the scrapped).
+
+2. To create **executable** python files. 
+
+E.g.: you tested your cleaning functions on your jupyter notebook. Now that they work, you take them to your `cleaning.py` file. Remember that you'll have to call those functions as well for them to be executed:
+
+```python
+def sum(a, b)
+  return a+b
+
+sum(3, 4)
+```
+
+You should be able to run:
+
+```bash
+python3 cleaning.py
+```
+on your terminal so that it'll prompt you to enter a dataset to download. Then the code within your file will download it, clean it and export it.
+
+After that's done, the rest of your code: enrichment and visualization can be told on jupyter notebooks.
+
+So, basically, your repo structure should look something like:
+
+```bash
+1-downloading-and-cleaning.py #executable
+2-enriching-and-cleaning.ipynb
+3-visualizing.ipynb
+```
 
 ## Super Ultra Mega Blaster Tips
 
