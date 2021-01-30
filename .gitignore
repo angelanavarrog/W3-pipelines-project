@@ -2,3 +2,4 @@
 **/*.ipynb_checkpoints/
 **/__pycache__
 .vscode
+/.AB_NYC_2019.csv
