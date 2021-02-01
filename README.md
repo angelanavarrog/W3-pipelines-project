@@ -10,9 +10,9 @@ The goal of this project is to find a dataset and enlarge the information it pro
 
 For this purpose, I have selected from [Kaggle the Data sets](https://www.kaggle.com/datasets) a data set about [Airbnb in NYC in 2019](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
 
-Once I had chosen it, I proceeded to clean the dataset by deleting columns and grouping information by neighborhood.
+Once I had chosen it, I proceeded to clean by deleting columns and grouping information by neighborhood I obtained a [cleaned dataset](https://github.com/angelanavarrog/W3-pipelines-project/blob/master/Other%20relevant%20files/Cleaning.ipynb).
 
-After that, I scrapped the information from this [wesbite](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoodpop.htm) to enrich the dataset.
+After that, I scrapped the information from this [wesbite](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoodpop.htm) obtaining a [new dataset](https://github.com/angelanavarrog/W3-pipelines-project/blob/master/Other%20relevant%20files/Scraping.ipynb).
 
 The reason that made me select it, was the intention or analyze if there is any relationship between the location of Airbnb's apartments and the population of NYC neighborhood.
 
