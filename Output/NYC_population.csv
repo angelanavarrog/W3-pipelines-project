@@ -1,56 +1,56 @@
 Borough,region,Males,Females,Total Population
-Bronx,"Riverdale, Fieldston & Kingsbridge","51,598","61,481","113,079"
-Bronx,"Wakefield, Williamsbridge & Woodlawn","65,216","78,387","143,604"
-Bronx,"Co-op City, Pelham Bay & Schuylerville","55,037","65,204","120,241"
-Bronx,"Pelham Parkway, Morris Park & Laconia","60,974","67,982","128,956"
-Bronx,"Belmont, Crotona Park East & East Tremont","77,119","89,293","166,411"
-Bronx,"Bedford Park, Fordham North & Norwood","63,169","68,921","132,090"
-Bronx,"Morris Heights, Fordham South & Mount Hope","65,682","72,967","138,648"
-Bronx,"Concourse, Highbridge & Mount Eden","68,152","75,978","144,129"
-Bronx,"Castle Hill, Clason Point & Parkchester","88,007","100,193","188,201"
-Bronx,"Hunts Point, Longwood & Melrose","81,666","79,759","161,425"
-Brooklyn,Greenpoint & Williamsburg,"76,748","77,779","154,527"
-Brooklyn,Bushwick,"66,695","67,378","134,073"
-Brooklyn,Bedford-Stuyvesant,"64,655","74,558","139,213"
-Brooklyn,Brooklyn Heights & Fort Greene,"58,271","66,161","124,432"
-Brooklyn,"Park Slope, Carroll Gardens & Red Hook","53,112","58,760","111,871"
-Brooklyn,Crown Heights North & Prospect Heights,"57,936","70,196","128,131"
-Brooklyn,Brownsville & Ocean Hill,"54,311","68,986","123,297"
-Brooklyn,East New York & Starrett City,"73,196","86,466","159,662"
-Brooklyn,Canarsie & Flatlands,"90,847","110,065","200,912"
-Brooklyn,"East Flatbush, Farragut & Rugby","62,365","78,661","141,026"
-Brooklyn,"Crown Heights So., Prospect Lefferts & Wingate","50,493","61,025","111,518"
-Brooklyn,Sunset Park & Windsor Terrace,"78,533","75,131","153,664"
-Brooklyn,Bay Ridge & Dyker Heights,"62,055","65,267","127,323"
-Brooklyn,"Borough Park, Kensington & Ocean Parkway","85,578","84,056","169,634"
-Brooklyn,Flatbush & Midwood,"77,849","86,969","164,818"
-Brooklyn,"Sheepshead Bay, Gerritsen Beach & Homecrest","73,985","79,944","153,929"
-Brooklyn,Bensonhurst & Bath Beach,"92,931","96,344","189,275"
-Brooklyn,Brighton Beach & Coney Island,"55,293","64,256","119,550"
-Manhattan,"Washington Heights, Inwood & Marble Hill","97,142","106,275","203,417"
-Manhattan,"Hamilton Heights, Manhattanville & West Harlem","61,481","68,085","129,566"
-Manhattan,Central Harlem,"56,270","65,431","121,701"
-Manhattan,East Harlem,"56,312","64,124","120,435"
-Manhattan,Upper East Side,"102,121","127,056","229,177"
-Manhattan,Upper West Side & West Side,"93,032","108,808","201,840"
-Manhattan,"Chelsea, Clinton & Midtown Business District","77,568","71,985","149,553"
-Manhattan,"Murray Hill, Gramercy & Stuyvesant Town","71,357","84,491","155,848"
-Manhattan,Chinatown & Lower East Side,"81,995","87,276","169,271"
-Manhattan,"Battery Park City, Greenwich Village & Soho","75,851","78,330","154,181"
-Queens,Astoria & Long Island City,"88,021","92,150","180,171"
-Queens,Jackson Heights & North Corona,"98,331","90,820","189,150"
-Queens,"Flushing, Murray Hill & Whitestone","123,550","134,764","258,315"
-Queens,"Bayside, Douglaston & Little Neck","58,155","63,468","121,623"
-Queens,"Queens Village, Cambria Heights & Rosedale","90,730","104,801","195,531"
-Queens,"Briarwood, Fresh Meadows & Hillcrest","76,454","83,163","159,617"
-Queens,Elmhurst & South Corona,"76,755","74,131","150,886"
-Queens,Forest Hills & Rego Park,"54,531","62,495","117,027"
-Queens,Sunnyside & Woodside,"70,244","68,429","138,673"
-Queens,"Ridgewood, Glendale & Middle Village","86,201","90,134","176,336"
-Queens,Richmond Hill & Woodhaven,"73,306","74,235","147,541"
-Queens,"Jamaica, Hollis & St. Albans","105,917","122,616","228,533"
-Queens,Howard Beach & Ozone Park,"61,637","65,928","127,565"
-Queens,"Far Rockaway, Breezy Point & Broad Channel","56,053","62,989","119,043"
-Staten Island,"Tottenville, Great Kills & Annadale","78,800","82,782","161,583"
-Staten Island,New Springville & South Beach,"64,693","70,437","135,130"
-Staten Island,"Port Richmond, Stapleton & Mariner's Harbor","85,549","91,062","176,611"
+Bronx,"Riverdale, Fieldston & Kingsbridge",51598.0,61481.0,113079.0
+Bronx,"Wakefield, Williamsbridge & Woodlawn",65216.0,78387.0,143604.0
+Bronx,"Co-op City, Pelham Bay & Schuylerville",55037.0,65204.0,120241.0
+Bronx,"Pelham Parkway, Morris Park & Laconia",60974.0,67982.0,128956.0
+Bronx,"Belmont, Crotona Park East & East Tremont",77119.0,89293.0,166411.0
+Bronx,"Bedford Park, Fordham North & Norwood",63169.0,68921.0,132090.0
+Bronx,"Morris Heights, Fordham South & Mount Hope",65682.0,72967.0,138648.0
+Bronx,"Concourse, Highbridge & Mount Eden",68152.0,75978.0,144129.0
+Bronx,"Castle Hill, Clason Point & Parkchester",88007.0,100193.0,188201.0
+Bronx,"Hunts Point, Longwood & Melrose",81666.0,79759.0,161425.0
+Brooklyn,Greenpoint & Williamsburg,76748.0,77779.0,154527.0
+Brooklyn,Bushwick,66695.0,67378.0,134073.0
+Brooklyn,Bedford-Stuyvesant,64655.0,74558.0,139213.0
+Brooklyn,Brooklyn Heights & Fort Greene,58271.0,66161.0,124432.0
+Brooklyn,"Park Slope, Carroll Gardens & Red Hook",53112.0,58760.0,111871.0
+Brooklyn,Crown Heights North & Prospect Heights,57936.0,70196.0,128131.0
+Brooklyn,Brownsville & Ocean Hill,54311.0,68986.0,123297.0
+Brooklyn,East New York & Starrett City,73196.0,86466.0,159662.0
+Brooklyn,Canarsie & Flatlands,90847.0,110065.0,200912.0
+Brooklyn,"East Flatbush, Farragut & Rugby",62365.0,78661.0,141026.0
+Brooklyn,"Crown Heights So., Prospect Lefferts & Wingate",50493.0,61025.0,111518.0
+Brooklyn,Sunset Park & Windsor Terrace,78533.0,75131.0,153664.0
+Brooklyn,Bay Ridge & Dyker Heights,62055.0,65267.0,127323.0
+Brooklyn,"Borough Park, Kensington & Ocean Parkway",85578.0,84056.0,169634.0
+Brooklyn,Flatbush & Midwood,77849.0,86969.0,164818.0
+Brooklyn,"Sheepshead Bay, Gerritsen Beach & Homecrest",73985.0,79944.0,153929.0
+Brooklyn,Bensonhurst & Bath Beach,92931.0,96344.0,189275.0
+Brooklyn,Brighton Beach & Coney Island,55293.0,64256.0,119550.0
+Manhattan,"Washington Heights, Inwood & Marble Hill",97142.0,106275.0,203417.0
+Manhattan,"Hamilton Heights, Manhattanville & West Harlem",61481.0,68085.0,129566.0
+Manhattan,Central Harlem,56270.0,65431.0,121701.0
+Manhattan,East Harlem,56312.0,64124.0,120435.0
+Manhattan,Upper East Side,102121.0,127056.0,229177.0
+Manhattan,Upper West Side & West Side,93032.0,108808.0,201840.0
+Manhattan,"Chelsea, Clinton & Midtown Business District",77568.0,71985.0,149553.0
+Manhattan,"Murray Hill, Gramercy & Stuyvesant Town",71357.0,84491.0,155848.0
+Manhattan,Chinatown & Lower East Side,81995.0,87276.0,169271.0
+Manhattan,"Battery Park City, Greenwich Village & Soho",75851.0,78330.0,154181.0
+Queens,Astoria & Long Island City,88021.0,92150.0,180171.0
+Queens,Jackson Heights & North Corona,98331.0,90820.0,189150.0
+Queens,"Flushing, Murray Hill & Whitestone",123550.0,134764.0,258315.0
+Queens,"Bayside, Douglaston & Little Neck",58155.0,63468.0,121623.0
+Queens,"Queens Village, Cambria Heights & Rosedale",90730.0,104801.0,195531.0
+Queens,"Briarwood, Fresh Meadows & Hillcrest",76454.0,83163.0,159617.0
+Queens,Elmhurst & South Corona,76755.0,74131.0,150886.0
+Queens,Forest Hills & Rego Park,54531.0,62495.0,117027.0
+Queens,Sunnyside & Woodside,70244.0,68429.0,138673.0
+Queens,"Ridgewood, Glendale & Middle Village",86201.0,90134.0,176336.0
+Queens,Richmond Hill & Woodhaven,73306.0,74235.0,147541.0
+Queens,"Jamaica, Hollis & St. Albans",105917.0,122616.0,228533.0
+Queens,Howard Beach & Ozone Park,61637.0,65928.0,127565.0
+Queens,"Far Rockaway, Breezy Point & Broad Channel",56053.0,62989.0,119043.0
+Staten Island,"Tottenville, Great Kills & Annadale",78800.0,82782.0,161583.0
+Staten Island,New Springville & South Beach,64693.0,70437.0,135130.0
+Staten Island,"Port Richmond, Stapleton & Mariner's Harbor",85549.0,91062.0,176611.0
