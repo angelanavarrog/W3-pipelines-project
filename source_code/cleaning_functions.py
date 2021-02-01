@@ -4,7 +4,7 @@ import requests
 
 # Import our dataset
 
-airbnb_NYC = pd.read_csv("./data/AB_NYC_2019.csv", encoding = "ISO-8859-1")
+airbnb_NYC = pd.read_csv("../data/AB_NYC_2019.csv", encoding = "ISO-8859-1")
 
 # Print our dataset to compare cleaning results
 
