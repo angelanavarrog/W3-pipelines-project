@@ -27,7 +27,7 @@ population_final = population_final.iloc[1:]
 
 # Now, we work to include in the empty cells the values we are looking for.
     
-    # We replace empty cells by "nan"
+    # We replace empty cells by "nan" using replace.
 population_final = population_final.replace(r'^\s*$', np.nan, regex=True)
 
     # Secondly, we define a function to substitute the name of some values for the correct ones.
@@ -45,7 +45,7 @@ def neighbourhood (Borough):
 
 population_final ["Borough"] = population_final["Borough"].apply(neighbourhood)
 
-    # Finaly, we define new dataframes for each value we want to include in the table and we apply a concatante.
+    # Definition of new dataframes for each value we want to include in the table.
 
 bronx = population_final.loc[0:10].replace(np.nan,"Bronx")
 brooklyn = population_final.loc[11:29].replace(np.nan,"Brooklyn")
@@ -53,7 +53,37 @@ manhattan = population_final.loc[30:39].replace(np.nan,"Manhattan")
 queens = population_final.loc[40:53].replace(np.nan,"Queens")
 staten_island = population_final.loc[54:56].replace(np.nan,"Staten Island")
 
+    # Concatenation of dataframes defined above.
 NYC_population = pd.concat([bronx, brooklyn, manhattan, queens, staten_island])
+
+# Conversion of values in columns Females, Males and Total Population from string to float.
+
+    # Conversion of column Males
+males_values = NYC_population['Males'].values
+for i in range(len(males_values)):
+    myVal = males_values[i].replace(",", "")
+    males_values[i] = float(myVal)
+
+    # In the origiina datafrae, We replace the original values for the obtained.
+NYC_population = NYC_population.replace(myVal) 
+
+    # Conversion of column Females
+females_values = NYC_population['Females'].values
+for i in range(len(females_values)):
+    myValf = females_values[i].replace(",", "")
+    females_values[i] = float(myValf)
+
+    # In the original Dataframe, We replace the original values for the obtained.
+NYC_population = NYC_population.replace(myValf) 
+
+ # Conversion of column Total Population
+population_values = NYC_population['Total Population'].values
+for p in range(len(population_values)):
+    myValp = population_values[p].replace(",", "")
+    population_values[p] = float(myValp)
+
+    # In the original Dataframe, We replace the original values for the obtained.
+NYC_population = NYC_population.replace(myValp) 
 
 # Final result
 print (NYC_population)
