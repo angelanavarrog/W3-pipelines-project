@@ -14,6 +14,7 @@ print (airbnb_NYC)
 
 airbnb_NYC = airbnb_NYC.drop(['name','latitude','longitude','host_name','calculated_host_listings_count','last_review'], axis = 1)
 
+# Neighborhood grouping by name.
 
 airbnb_NYC.neighbourhood_group.unique()
 
@@ -22,8 +23,9 @@ airbnb_NYC.loc[airbnb_NYC["neighbourhood_group"] == "Manhattan", "neighbourhood_
 airbnb_NYC.loc[airbnb_NYC["neighbourhood_group"] == "Bronx", "neighbourhood_group"] = "Bronx"
 airbnb_NYC.loc[airbnb_NYC["neighbourhood_group"] == "Queens", "neighbourhood_group"] = "Queens"
 airbnb_NYC.loc[airbnb_NYC["neighbourhood_group"] == "Staten Island", "neighbourhood_group"] = "Staten Island"
-airbnb_NYC.loc[airbnb_NYC["neighbourhood_group"] == "USA", "neighbourhood_group"] = "Other"
 airbnb_NYC["neighbourhood_group"].value_counts()
+
+# Definition of a variable to replace the name of some cells values.
 
 def neighbourhood (neighbourhood_group):
     if neighbourhood_group == "Brooklyn":
@@ -39,10 +41,12 @@ def neighbourhood (neighbourhood_group):
     else:
         return "other" 
 
+# Application of defined conditions in our dataframe.
 
 airbnb_NYC ["neighbourhood_group"] = airbnb_NYC["neighbourhood_group"].apply(neighbourhood)
 
 
+# Reset our indiex.
 
 airbnb_NYC_2019 = airbnb_NYC.reset_index(drop=True)
 
