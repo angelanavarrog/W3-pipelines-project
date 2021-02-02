@@ -18,6 +18,6 @@ The reason that made me select it, was the intention or analyze if there is any 
 
 ## Conclusion
 
-After analyze the selected data sets, could we establish some kind of relationship between the location of the apartments and the most inhabited areas of the city?
+After analyze the selected data sets, could we establish some kind of relationship between the location of the apartments and the most populated areas of the NYC?
 
 
